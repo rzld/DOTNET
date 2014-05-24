@@ -35,7 +35,13 @@
 
             <!--Panorama item four-->
             <controls:PanoramaItem Header="tentang kami">
-                <Grid/>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="52" />
+                        <RowDefinition Height="446" />
+                    </Grid.RowDefinitions>
+                    <TextBlock Height="47" HorizontalAlignment="Left" Margin="10,-1,0,0" Name="textBlock1" Text="Final Project" VerticalAlignment="Top" FontSize="26" Width="408" />
+                </Grid>
             </controls:PanoramaItem>
         </controls:Panorama>
     </Grid>
