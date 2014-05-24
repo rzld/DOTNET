@@ -13,10 +13,9 @@ using Microsoft.Phone.Controls;
 
 namespace IndonesiaPintar
 {
-    public partial class MainPage : PhoneApplicationPage
+    public partial class Main : PhoneApplicationPage
     {
-        // Constructor
-        public MainPage()
+        public Main()
         {
             InitializeComponent();
         }
