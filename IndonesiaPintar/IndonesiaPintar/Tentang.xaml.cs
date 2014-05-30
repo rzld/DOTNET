@@ -13,23 +13,11 @@ using Microsoft.Phone.Controls;
 
 namespace IndonesiaPintar
 {
-    public partial class Main : PhoneApplicationPage
+    public partial class Tentang : PhoneApplicationPage
     {
-        public Main()
+        public Tentang()
         {
             InitializeComponent();
-        }
-
-        // tombol info UN
-        private void button4_Click(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
-        // tombol tentang
-        private void button5_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationService.Navigate(new Uri("/Tentang.xaml", UriKind.Relative));
         }
     }
 }
