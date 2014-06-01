@@ -18,7 +18,8 @@ namespace IndonesiaPintar
         public Tentang()
         {
             InitializeComponent();
-            textBlock1.Text = "adsf";
+            textBlock1.Text = 
+            "Indonesia Pintar Merupakan Applikasi yang membantu anak - anak Sekolah dasar untuk berlatih soal - soal Ujian Nasional. Soal terdiri dari mata pelajaran Matematika, Bahasa Indonesia dan IPA. terdapat dari 50 bulir soal tiap mata pelajaran yang bisa di jawab kemudian akan di beritahukanjawaban yang anda pilih benar atau salah. anda dapat pula melihat info ujian nasional dengan me-klik tombolnya. SELAMAT BELAJAR";
         }
     }
 }
