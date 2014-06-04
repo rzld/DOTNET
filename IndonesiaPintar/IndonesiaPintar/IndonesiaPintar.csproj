@@ -65,6 +65,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="BahasaIndonesia.cs" />
+    <Compile Include="IPA.cs" />
     <Compile Include="Main.xaml.cs">
       <DependentUpon>Main.xaml</DependentUpon>
     </Compile>
@@ -162,6 +163,56 @@
     <Resource Include="Bind\Bind no 7.JPG" />
     <Resource Include="Bind\Bind no 8.JPG" />
     <Resource Include="Bind\Bind no 9.JPG" />
+    <Content Include="IPA\soal10ipa.PNG" />
+    <Content Include="IPA\soal11ipa.PNG" />
+    <Content Include="IPA\soal12ipa.PNG" />
+    <Content Include="IPA\soal13ipa.PNG" />
+    <Content Include="IPA\soal14ipa.PNG" />
+    <Content Include="IPA\soal15ipa.PNG" />
+    <Content Include="IPA\soal16ipa.PNG" />
+    <Content Include="IPA\soal17ipa.PNG" />
+    <Content Include="IPA\soal18ipa.PNG" />
+    <Content Include="IPA\soal19ipa.PNG" />
+    <Content Include="IPA\soal1ipa.PNG" />
+    <Content Include="IPA\soal20ipa.PNG" />
+    <Content Include="IPA\soal21ipa.PNG" />
+    <Content Include="IPA\soal22ipa.PNG" />
+    <Content Include="IPA\soal23ipa.PNG" />
+    <Content Include="IPA\soal24ipa.PNG" />
+    <Content Include="IPA\soal25ipa.PNG" />
+    <Content Include="IPA\soal26ipa.PNG" />
+    <Content Include="IPA\soal27ipa.PNG" />
+    <Content Include="IPA\soal28ipa.PNG" />
+    <Content Include="IPA\soal29ipa.PNG" />
+    <Content Include="IPA\soal2ipa.PNG" />
+    <Content Include="IPA\soal30ipa.PNG" />
+    <Content Include="IPA\soal31ipa.PNG" />
+    <Content Include="IPA\soal32ipa.PNG" />
+    <Content Include="IPA\soal33ipa.PNG" />
+    <Content Include="IPA\soal34ipa.PNG" />
+    <Content Include="IPA\soal35ipa.PNG" />
+    <Content Include="IPA\soal36ipa.PNG" />
+    <Content Include="IPA\soal37ipa.PNG" />
+    <Content Include="IPA\soal38ipa.PNG" />
+    <Content Include="IPA\soal39ipa.PNG" />
+    <Content Include="IPA\soal3ipa.PNG" />
+    <Content Include="IPA\soal40ipa.PNG" />
+    <Content Include="IPA\soal41ipa.PNG" />
+    <Content Include="IPA\soal42ipa.PNG" />
+    <Content Include="IPA\soal43ipa.PNG" />
+    <Content Include="IPA\soal44ipa.PNG" />
+    <Content Include="IPA\soal45ipa.PNG" />
+    <Content Include="IPA\soal46ipa.PNG" />
+    <Content Include="IPA\soal47ipa.PNG" />
+    <Content Include="IPA\soal48ipa.PNG" />
+    <Content Include="IPA\soal49ipa.PNG" />
+    <Content Include="IPA\soal4ipa.PNG" />
+    <Content Include="IPA\soal50ipa.PNG" />
+    <Content Include="IPA\soal5ipa.PNG" />
+    <Content Include="IPA\soal6ipa.PNG" />
+    <Content Include="IPA\soal7ipa.PNG" />
+    <Content Include="IPA\soal8ipa.PNG" />
+    <Content Include="IPA\soal9ipa.PNG" />
     <Content Include="SplashScreenImage.jpg" />
   </ItemGroup>
   <ItemGroup>
