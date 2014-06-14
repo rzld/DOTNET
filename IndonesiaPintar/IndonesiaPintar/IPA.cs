@@ -23,12 +23,12 @@ namespace IndonesiaPintar
         public string Jawaban { get; set; }
     }
 
-    public class IPAIsi
+    public static class IPAIsi
     {
-        public List<IPA> items { get; set; }
-        public IPAIsi()
+        public static List<IPA> items { get; set; }
+        public static void isiIPA()
         {
-            this.items = new List<IPA>()
+            items = new List<IPA>()
             {
                 new IPA() { Id = "IPA1", Soal = "IPA/soal1ipa.PNG" ,Jawaban = "A" },
                 new IPA() { Id = "IPA2", Soal = "IPA/soal2ipa.PNG",Jawaban = "D" },

@@ -41,6 +41,20 @@ namespace IndonesiaPintar
              
             }
 
+            if (pelajaran.Equals("IPA"))
+            {
+                IPA soal = new IPA();
+                foreach (IPA a in IPAIsi.items)
+                {
+                    if (a.Id.Equals(idsoal))
+                    {
+                        soal = a;
+                        break;
+                    }
+                }
+                soalPanel.DataContext = soal;
+            }
+
         }
     }
 }
