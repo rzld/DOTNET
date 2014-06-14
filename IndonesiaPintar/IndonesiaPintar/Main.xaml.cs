@@ -44,7 +44,7 @@ namespace IndonesiaPintar
         // tombol info UN
         private void button4_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new Uri("/InfoUN.xaml", UriKind.Relative));
         }
 
         // tombol tentang
