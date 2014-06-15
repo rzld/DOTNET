@@ -15,7 +15,7 @@ using System.Collections.Generic;
 
 namespace IndonesiaPintar
 {
-
+   
     public class BahasaIndonesia
     {
         public string Id { get; set; }

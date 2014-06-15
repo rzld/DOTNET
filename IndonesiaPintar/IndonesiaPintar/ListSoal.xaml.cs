@@ -36,6 +36,11 @@ namespace IndonesiaPintar
             {
                 listBox1.ItemsSource = IPAIsi.items.ToList();
             }
+
+            if (pelajaran.Equals("Matematika"))
+            {
+                listBox1.ItemsSource = MatematikaIsi.items.ToList();
+            }
             //if mtk ipa
         }
 
@@ -46,6 +51,9 @@ namespace IndonesiaPintar
                 IdSoal = BahasaIndonesiaIsi.items.ElementAt(listBox1.SelectedIndex).Id;
             if (PageTitle.Text.Equals("IPA"))
                 IdSoal = IPAIsi.items.ElementAt(listBox1.SelectedIndex).Id;
+            if (PageTitle.Text.Equals("Matematika"))
+                IdSoal = MatematikaIsi.items.ElementAt(listBox1.SelectedIndex).Id;
+           
             //if mtk ipa
             NavigationService.Navigate(new Uri("/Soal.xaml?Pelajaran=" + PageTitle.Text + "&IdSoal=" + IdSoal, UriKind.Relative));
         }  

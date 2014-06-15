@@ -20,6 +20,8 @@ namespace IndonesiaPintar
             InitializeComponent();
             BahasaIndonesiaIsi.Isiindong();
             IPAIsi.isiIPA();
+            MatematikaIsi.IsiMTK();
+            
             // tambahin mtk sama ipa
         }
 
