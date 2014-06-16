@@ -18,6 +18,7 @@ namespace IndonesiaPintar
         public static List<String> sudahBi = new List<string>();
         public static List<String> sudahIPA = new List<string>();
         public static List<String> sudahMtk = new List<string>();
+
     }
 
 
