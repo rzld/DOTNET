@@ -15,7 +15,7 @@ namespace IndonesiaPintar
 {
     public partial class Page1 : PhoneApplicationPage
     {
-        String pelajaran;
+   
         public Page1()
         {
             InitializeComponent();
@@ -24,7 +24,7 @@ namespace IndonesiaPintar
         protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
-         
+            String pelajaran;
             NavigationContext.QueryString.TryGetValue("Pelajaran", out pelajaran);
             PageTitle.Text = pelajaran;
             
@@ -56,6 +56,7 @@ namespace IndonesiaPintar
            
             //if mtk ipa
             NavigationService.Navigate(new Uri("/Soal.xaml?Pelajaran=" + PageTitle.Text + "&IdSoal=" + IdSoal, UriKind.Relative));
+<<<<<<< HEAD
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
@@ -76,6 +77,9 @@ namespace IndonesiaPintar
                 skor = SkorPemain.skorMtk * 2;
             }
             MessageBox.Show("Skor kamu adalah " + skor);
+=======
+        }  
+>>>>>>> parent of 2b2458e... lagi
 
         }  
 
