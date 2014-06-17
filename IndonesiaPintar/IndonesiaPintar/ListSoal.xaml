@@ -39,13 +39,12 @@
                 </ListBox.ItemTemplate>
                 
             </ListBox>
-            <Button Content="Selesai" Height="61" HorizontalAlignment="Left" Margin="86,540,0,0" Name="button1" VerticalAlignment="Top" Width="277" FontSize="18" Click="button1_Click" />
         </Grid>
     </Grid>
  
     <!--Sample code showing usage of ApplicationBar-->
     <!--<phone:PhoneApplicationPage.ApplicationBar>
-        <shell:ApplicationBar IsiVisible="True" IsMenuEnabled="True">
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
             <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
             <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
             <shell:ApplicationBar.MenuItems>
