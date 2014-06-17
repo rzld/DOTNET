@@ -32,8 +32,8 @@
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="# "></TextBlock>
-                            <TextBlock Text="{Binding Id}" Tap="TextBlock_Tap" Name="nomer"/>
+                            <TextBlock Text="# " FontSize="24"></TextBlock>
+                            <TextBlock Text="{Binding Id}" FontSize="24" Tap="TextBlock_Tap" Name="nomer"/>
                         </StackPanel>
                     </DataTemplate>
                 </ListBox.ItemTemplate>

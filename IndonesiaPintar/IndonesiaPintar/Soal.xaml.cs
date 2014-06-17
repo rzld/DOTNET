@@ -81,8 +81,11 @@ namespace IndonesiaPintar
                 {
                     if(b.Id.Equals(idsoal))
                     {
-                        if(Jawaban.Equals(b.Jawaban))
-                        SkorPemain.skorBi++;
+                        if (Jawaban.Equals(b.Jawaban))
+                        {
+                            SkorPemain.skorBi++;
+                            MessageBox.Show("Jawaban yang anda masukan BENAR");
+                        }
                         else
                             MessageBox.Show("Jawaban yang anda masukan SALAH, jawaban yang benar adalah " + b.Jawaban);
                     }
@@ -97,10 +100,13 @@ namespace IndonesiaPintar
                 {
                     if (a.Id.Equals(idsoal))
                     {
-                       if(Jawaban.Equals(a.Jawaban))
+                        if (Jawaban.Equals(a.Jawaban))
+                        {
                             SkorPemain.skorIpa++;
-                       else
-                           MessageBox.Show("Jawaban yang anda masukan SALAH, jawaban yang benar adalah " + a.Jawaban);
+                            MessageBox.Show("Jawaban yang anda masukan BENAR");
+                        }
+                        else
+                            MessageBox.Show("Jawaban yang anda masukan SALAH, jawaban yang benar adalah " + a.Jawaban);
                     }
                 }
                 SkorPemain.sudahIPA.Add(idsoal);
@@ -115,9 +121,12 @@ namespace IndonesiaPintar
                     if (m.Id.Equals(idsoal))
                     {
                         if (Jawaban.Equals(m.Jawaban))
+                        {
                             SkorPemain.skorMtk++;
-                        else 
-                            MessageBox.Show("Jawaban yang anda masukan SALAH, jawaban yang benar adalah "+m.Jawaban);
+                            MessageBox.Show("Jawaban yang anda masukan BENAR");
+                        }
+                        else
+                            MessageBox.Show("Jawaban yang anda masukan SALAH, jawaban yang benar adalah " + m.Jawaban);
                     }
                 }
 

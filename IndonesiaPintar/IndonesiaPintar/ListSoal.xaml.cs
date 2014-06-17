@@ -75,10 +75,9 @@ namespace IndonesiaPintar
             {
                 skor = SkorPemain.skorMtk * 2;
             }
-
             MessageBox.Show("Skor kamu adalah " + skor);
-        }  
 
+        }  
 
     }
 }
