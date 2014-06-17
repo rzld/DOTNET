@@ -81,6 +81,7 @@
     <Compile Include="Matematika.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RssTextTrimmer.cs" />
+    <Compile Include="Rules.cs" />
     <Compile Include="SkorPemain.cs" />
     <Compile Include="Soal.xaml.cs">
       <DependentUpon>Soal.xaml</DependentUpon>
@@ -88,6 +89,7 @@
     <Compile Include="Tentang.xaml.cs">
       <DependentUpon>Tentang.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -121,9 +123,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ApplicationIcon.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Background.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Resource Include="Bind\Bind no 1.JPG" />
@@ -176,6 +175,7 @@
     <Resource Include="Bind\Bind no 7.JPG" />
     <Resource Include="Bind\Bind no 8.JPG" />
     <Resource Include="Bind\Bind no 9.JPG" />
+    <Resource Include="Background.jpg" />
     <Content Include="IPA\soal10ipa.PNG" />
     <Content Include="IPA\soal11ipa.PNG" />
     <Content Include="IPA\soal12ipa.PNG" />
